@@ -7,4 +7,4 @@ UPDATE customer SET last_name = 'Thompson' WHERE first_name = 'Julia' AND lst_na
 -- 4
 UPDATE customer SET support_rep_id = 4 WHERE email = 'luisrojas@yahoo.cl';
 -- 5
-UPDATE track SET composer = 'The darkness around us' WHERE genre = (SELECT genre_id FROM genre WHERE name = 'Metal') AND composer is NULL;
+UPDATE track SET composer = 'The darkness around us' WHERE genre = 3 AND composer is NULL;
