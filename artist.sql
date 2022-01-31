@@ -13,3 +13,7 @@ LIMIT 5;
 SELECT * FROM artist
 WHERE name
 LIKE 'Black%';
+-- 5
+SELECT * FROM artist
+WHERE name
+LIKE '%Black%';
